@@ -24,6 +24,6 @@ The setup is performed in three steps, on both Toca and the providers side:
 
 
 
-- Provide the Client ID and Secret to Toca. When you have generated the Client ID and Secret in the provider's API Manager, provide these values to Toca along with the Token endpoint and the Auth endpoint.
+- Provide the Client ID and Secret to Toca. When you have generated the Client ID and Secret in the provider's API Manager, provide these values to Toca along with the Token endpoint and the Auth endpoint, along with the required scopes (configured as part of setting up the Identity in the chosen provider. Examples might include `email`, `profile`, `openid`, `offline_access`) 
 
  
